@@ -72,7 +72,7 @@ nav a:hover {
 }
 
 .banner_headline {
-    flex: 1;   
+    flex: 1; /* Cobre o restante do espaço */  
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -81,7 +81,7 @@ nav a:hover {
 .banner_headline h1 {
     color: #FFF;
     font-size: 70px;
-    text-shadow: 0 1px 0 #555;
+    text-shadow: 0 1px 0 #555; /* Efeito sombra */
     margin: 0;
     padding: 0;
     max-width: 350px;
@@ -98,7 +98,7 @@ nav a:hover {
 }
 
 .banner_options {
-    height: 210px;
+    height: 210px; /* Altura fixa */
     display: flex;
 }
 
@@ -258,7 +258,7 @@ article {
 }
 
 article a {
-    text-decoration: none;
+    text-decoration: none; /* Tira o sublinhado do link */
 }
 
 article .news_data {
@@ -298,7 +298,7 @@ article .news_title {
 article .news_resume {
     color: #5C5C5C;
     font-size: 14px;
-    line-height: 20px;
+    line-height: 20px; /* Espaço entre uma linha e outra */
     margin-bottom: 30px;
 }
 
